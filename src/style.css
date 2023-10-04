@@ -1,0 +1,58 @@
+
+  body{
+ background: url(background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: blue;
+}
+
+input[type = 'text']
+{
+  width: 120px;
+}
+
+input::placeholder
+{
+  font-size: 75%;
+  color: rgb(150,150,150);
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+    .remove
+{
+border-radius: 5px;
+font-weight: bold;
+}
+
+  #addTrainDiv
+  {
+  background-color: lightgray;
+  width: 50%;
+  margin-left: 20px;
+  padding:20px;
+  border-radius: 20px;
+  }
+
+  #submit {
+    margin: 5px;
+  }
